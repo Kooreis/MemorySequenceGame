@@ -1,17 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-
-namespace MemorySequenceGame
+while (true)
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            List<int> sequence = new List<int>();
-            Random random = new Random();
-            int score = 0;
-        }
-    }
+    sequence.Add(random.Next(1, 5));
 }
